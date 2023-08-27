@@ -13,14 +13,14 @@
     },
       {
       "name": "Project Pokedex",
-      "image": "./images/pokedex.png",
+      "image": "./images/pokedex.PNG",
       "tags": ["HTML", "CSS", "JavaScript", "API Poke"],
       "link": "https://pokedex-rubsribeiro.vercel.app/"
     },
 
        {
         "name": "Project Super Mario",
-        "image": "./images/supermario.png",
+        "image": "./images/supermario.PNG",
         "tags": ["HTML", "CSS", "JavaScript"],
         "link": "https://super-mario-bros-ten.vercel.app/"
     }
