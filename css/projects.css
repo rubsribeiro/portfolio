@@ -9,71 +9,88 @@
 
 }
 
-.subtitle {
-    padding: 20px;
-    
+
+#project__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+
+    margin-top: 16px;
 }
 
-#project__content i {
+.project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 12px;
 
-    width: 50px;
-    height: 50px;
+    width: 100%;
 
-    font-size: 22px;
-    border-radius: 4px;
+    overflow: hidden;
+    text-decoration: none;
 
-    padding: 3px;
-
-    background: var(--background-project);
-
-    color: #FFF;
-
+    border-radius: 6px;
+    padding-bottom: 12px;
+    border: 1px solid var(--background-body);
 }
 
-.project img {
-    width: 400px;
-    height: 300px;
+.card .subtitle__projects {
+    padding: 32px;
+}
+
+
+.project picture {
+    width: 100%;
+    height: 220px;
+}
+
+.project picture img {
+    width: 100%;
+    height: 100%;
 
     object-fit: cover;
+    object-position: top;
 
-    border-radius: 12px;
-    box-shadow: var(--shadow-image);
+    box-shadow: var(--shadow-card);
 
-    margin: 8px;
-
-    transition: all 0.2s;
-
+    transition: all 0.4;
 }
 
-.project p {
+.project strong {
     font-size: 16px;
     font-weight: 600;
+    color: var(--secondary);
+    text-align: center;
 
-    margin: 14px;
-
+    padding: 0 18px;
+    transition: all 0.2s;
 }
 
-.project span {
+.project div {
+    display: flex;
+    gap: 4px;
+    flex-wrap: wrap;
+
+    padding: 0 8px;
+    margin-top: auto;
+}
+
+.project div span {
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 300;
+    color: var(--secondary);
 
-    background: var(--background-body);
-    box-shadow: var(--shadow-card);
-    border-radius: 6px;
-
-    padding: 8px;
-
-    color: #FFF;
+    padding: 4px 8px;
+    border-radius: 2px;
+    background: var(--background-badge);
 }
 
-.project img:hover {
-    background: var(--background-cardproject);
-    opacity: 0.8;
-    border: 2px solid var(--background-cardproject);
 
+.project:hover picture img {
     transform: scale(1.02);
-
 }
 
-
+.project:hover strong {
+    color: var(--link);
+}
 

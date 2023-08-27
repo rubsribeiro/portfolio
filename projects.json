@@ -1,26 +1,26 @@
 [
     {
       "name": "Project Contador",
-      "image": "./images/contadorOlimpiadas",
+      "image": "./images/contadorOlimpiadas.png",
       "tags": ["HTML", "CSS", "JavaScript"],
       "link": "https://contador-olimpiadas-paris.vercel.app/"
     },
       {
       "name": "Project Organo",
-      "image": "./images/organo",
+      "image": "./images/organo.png",
       "tags": ["HTML", "CSS", "JavaScript", "React"],
       "link": "https://organo-beta-one.vercel.app/"
     },
       {
       "name": "Project Pokedex",
-      "image": "./images/pokedex",
+      "image": "./images/pokedex.png",
       "tags": ["HTML", "CSS", "JavaScript", "API Poke"],
-      "link": ""
+      "link": "https://pokedex-rubsribeiro.vercel.app/"
     },
 
        {
         "name": "Project Super Mario",
-        "image": "./images/supermario",
+        "image": "./images/supermario.png",
         "tags": ["HTML", "CSS", "JavaScript"],
         "link": "https://super-mario-bros-ten.vercel.app/"
     }
