@@ -10,3 +10,12 @@
   margin-top: 12px;
 }
   
+@media(max-width: 1080px) {
+  .about {
+    padding: 24px;
+  }
+
+  .about p {
+    font-size: 14px;
+  }
+}
