@@ -17,7 +17,7 @@
       "name": "Project Organo",
       "image": "./images/organo.png",
       "tags": ["HTML", "CSS", "JavaScript", "React"],
-      "link": "https://organo-beta-one.vercel.app/"
+      "link": "https://organo-pessoas-times.vercel.app/"
     },
       {
       "name": "Project Pokedex",
@@ -30,7 +30,7 @@
         "name": "Project Super Mario",
         "image": "./images/supermario.PNG",
         "tags": ["HTML", "CSS", "JavaScript"],
-        "link": "https://super-mario-bros-ten.vercel.app/"
+        "link": "https://super-mariobros.vercel.app/"
 
     }
   ]
