@@ -9,7 +9,7 @@
 
     {
       "name": "Project Contador",
-      "image": "./images/olimpiadasAtualizada.png",
+      "image": "./images/paris2024",
       "tags": ["HTML", "CSS", "JavaScript"],
       "link": "https://contador-olimpiadas-paris.vercel.app/"
     },
