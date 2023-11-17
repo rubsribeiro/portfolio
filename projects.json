@@ -36,7 +36,7 @@
 
       {
         "name": "Landing Page - Apple",
-        "image": "./images/apple.PNG",
+        "image": "./images/apple.png",
         "tags": ["HTML", "CSS"],
         "link": "https://rubsribeiro.github.io/landingPageApple/"
     }
