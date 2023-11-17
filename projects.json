@@ -32,5 +32,13 @@
         "tags": ["HTML", "CSS", "JavaScript"],
         "link": "https://super-mariobros.vercel.app/"
 
+    },
+
+      {
+        "name": "Landing Page - Apple",
+        "image": "./images/apple.PNG",
+        "tags": ["HTML", "CSS"],
+        "link": "https://rubsribeiro.github.io/landingPageApple/"
     }
+
   ]
